@@ -1,6 +1,6 @@
 .container__menu-title {
-  color: #fff;
-  background-color: #013460;
+  color: var(--white);
+  background-color: var(--navy-blue);
 }
 
 .container__menu-title>h1 {

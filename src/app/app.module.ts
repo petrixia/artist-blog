@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
-import { AboutComponent } from './components/about/about.component';
-import { ArticlesComponent } from './components/articles/articles.component';
-import { ContactComponent } from './components/contact/contact.component';
+import { HomeComponent } from './pages/home/home.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ArticlesComponent } from './pages/articles/articles.component';
+import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
