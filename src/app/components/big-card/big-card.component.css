@@ -1,6 +1,5 @@
 .container__big-card {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0 20px;
 
   width: 400px;
   height: 500px;
@@ -17,7 +16,7 @@
   margin-top: 15px;
   font-size: 20px;
 }
-.big-card__text > p {
+.big-card__text p {
   margin-top: 10px;
   color: var(--grey);
 }
