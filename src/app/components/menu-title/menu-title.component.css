@@ -1,6 +1,6 @@
 .container__menu-title {
   color: var(--white);
-  background-color: var(--navy-blue);
+  background-color: var(--grey);
 }
 
 .container__menu-title>h1 {

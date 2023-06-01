@@ -1,14 +1,15 @@
 <div class="container__content">
     <div class="content__cover">
-        <img src="https://media.architecturaldigest.com/photos/612e7189e20f486fe9e9213b/16:9/w_2560%2Cc_limit/fa9a8049-940f-4441-a6af-258c23ca.jpeg" alt="" srcset="">
+      <img src="{{ photoCover }}" alt="" srcset="">
     </div>
     <div class="content__title">
-        <h1>MINHA PUBLICAÇÃO</h1>
+      <h1>{{ contentTitle }}</h1>
+      <hr />
     </div>
     <div class="content__description">
-        <p>Floral tattoos also offer an opportunity to incorporate various elements, such as butterflies, hummingbirds, or vines, creating a harmonious composition that enhances the overall design. The choice of color palette adds another layer of artistry, allowing the tattooist to breathe life into the petals with subtle shades or bold hues that reflect the wearer's personality and style.
-
-            Beyond their aesthetic appeal, floral tattoos can carry deep emotional meaning. They can serve as a tribute to loved ones, capturing their memory in a permanent bouquet. They can also represent personal growth, resilience, or new beginnings, reminding us that even amidst life's challenges, beauty can emerge.</p>
+      <a [routerLink]="['']"> << BACK </a>
+      <p>
+        {{ contentDescription }}
+      </p>
     </div>
-
-</div>
+  </div>
