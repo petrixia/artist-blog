@@ -9,15 +9,15 @@ import { ContentComponent } from './pages/content/content.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: '/about', component: AboutComponent },
-  { path: '/articles', component: ArticlesComponent },
-  { path: '/contact', component: ContactComponent },
-  { path: '/component', component: ContentComponent}
+  { path: 'about', component: AboutComponent },
+  { path: 'articles', component: ArticlesComponent },
+  { path: 'contact', component: ContactComponent },
+  // { path: 'content', component: ContentComponent},
+  { path: ':id', component: ContentComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
-  
+export class AppRoutingModule {}

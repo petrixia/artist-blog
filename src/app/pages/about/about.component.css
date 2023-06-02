@@ -1,0 +1,37 @@
+.container__about {
+    width: 100%;
+    height: 100vh;
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.about__description,
+.about_links {
+    margin: 35px;
+}
+
+.about_links>ul {
+    list-style: none;
+}
+
+.about_links>ul>li>a,
+.description_back {
+    color: var(--grey);
+    margin: 20px;
+}
+
+.description_text {
+    margin: 40px 60px;
+    margin: 15px;
+    color: var(--white);
+}
+
+.about_links>ul>li>a:hover,
+.description_back:hover {
+    color: var(--white);
+}
