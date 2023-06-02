@@ -12,7 +12,6 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'articles', component: ArticlesComponent },
   { path: 'contact', component: ContactComponent },
-  // { path: 'content', component: ContentComponent},
   { path: ':id', component: ContentComponent },
 ];
 

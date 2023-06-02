@@ -12,9 +12,9 @@ export class BigCardComponent {
   @Input()
   cardTitle: string = ""
   @Input()
-  cardDescription: string = ""
+  cardDescription: any = ""
   @Input()
-  Id:string="0"
+  id:string="0"
 
   constructor() { }
   ngOnInit(): void {

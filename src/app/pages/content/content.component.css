@@ -23,6 +23,6 @@
 }
 
 .content__description>p {
-    margin-top: 20px;
+    margin: 20px;
     color: var(--white);
 }
