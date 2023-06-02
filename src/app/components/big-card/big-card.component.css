@@ -9,14 +9,22 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.big-card__image > img {
+
+.big-card__image>img {
   width: 100%;
 }
-.big-card__title > h1 {
+
+.big-card__title>h1 {
   margin-top: 15px;
   font-size: 20px;
 }
-.big-card__text p {
+
+.big-card__text>p,
+.big-card__title>h1>a {
   margin-top: 10px;
-  color: var(--soft-beige);
+  color: var(--grey);
+}
+.big-card__text>p:hover,
+.big-card__title>h1>a:hover {
+  color: var(--white);
 }
