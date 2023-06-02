@@ -5,12 +5,11 @@
     <app-big-card></app-big-card>
   </div>
   <div class="articles__list">
-    <app-small-card></app-small-card>
-    <app-small-card Id="4"
-      photoCover="https://cdn.shopify.com/s/files/1/0525/9657/2351/products/irisno.173copy_943x.jpg?v=1665969096"
-      cardTitle="aquarelas you've never seen before"></app-small-card>
-    <app-small-card Id="5"
-      photoCover="https://fcs.mg.gov.br/wp-content/uploads/2021/10/Imagem-para-o-site-2-Tentacao-de-Santo-Antonio-Gilvan-Samico.jpg"
-      cardTitle="xilogravura"></app-small-card>
+    <app-small-card
+      *ngFor="let article of articlesContent"
+      [routerLink]=[article.id]
+      photoCover={{article.photo}}
+      cardTitle={{article.title}}
+    ></app-small-card>
   </div>
 </div>
