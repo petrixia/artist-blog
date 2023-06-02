@@ -3,7 +3,7 @@
     <img src="{{ photoCover }}" alt="" height="200px" srcset="">
   </div>
   <div class="big-card__title">
-    <h1>{{ cardTitle }}</h1>
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
   </div>
   <div class="big-card__text">
     <p>{{ cardDescription }}</p>
