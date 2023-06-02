@@ -31,7 +31,19 @@ export class HomeComponent {
       id: "4",
       photo: "https://classic.exame.com/wp-content/uploads/2021/10/JEQUITINHONHA-DIVULGACAO.jpg?quality=70&strip=info&w=1024",
       title: "VALE DO JEQUITINHONHA AND CERAMICS TRADITION",
-      description: "The ceramics of Vale do Jequitinhonha are a unique expression of Brazilian craftmanship. Located in the state of Minas Gerais, the region has a long tradition of pottery-making, dating back to the indigenous cultures that inhabited the area. Today, the ceramics of Vale do Jequitinhonha are known for their intricate designs and vibrant colors, which are inspired by the local flora and fauna. The artisans who create these pieces are often women from rural communities, who have been able to sustain their livelihoods through their craft. The ceramics of Vale do Jequitinhonha are a testament to Brazil's rich cultural heritage and the creativity of its people."
+      description: "The ceramics of Vale do Jequitinhonha are a unique expression of Brazilian craftmanship. Located in the state of Minas Gerais, the region has a long tradition of pottery-making, dating back to the indigenous cultures that inhabited the area. Today, the ceramics of Vale do Jequitinhonha are known for their intricate designs and vibrant colors, which are inspired by the local flora and fauna."
     },
+    {
+      id: "5",
+      photo: "https://www.boredpanda.com/blog/wp-content/uploads/2023/01/small-minimalist-tattoos-cover_800.png",
+      title: "THE RISE OF MINIMALIST TATTOOS",
+      description: "Minimalist tattoos have gained immense popularity among enthusiasts in recent years. These designs, with clean lines, subtle shading, and minimalistic motifs, create a lasting impression without overwhelming the senses. Whether it's a delicate single-line illustration, a tiny geometric symbol, or a minimalist floral design, these tattoos offer a fresh and contemporary approach to body art."
+    },
+    {
+      id: "6",
+      photo: "https://www.thisiscolossal.com/wp-content/uploads/2022/09/velco-2.jpg",
+      title: "UNVEILING THE ART OF DOTWORK TATTOOS",
+      description: "Dotwork tattoos, a mesmerizing style within the realm of body art, showcase the astonishing precision and intricacy of tattooing. This technique involves creating intricate designs using tiny dots, meticulously placed to form intricate patterns, shading, and textures. From mandalas to sacred geometry, dotwork tattoos draw inspiration from various cultural and spiritual traditions, resulting in visually stunning and deeply meaningful creations."
+    }
   ];
 }

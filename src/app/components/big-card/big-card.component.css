@@ -6,7 +6,7 @@
 
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
 }
 
@@ -24,6 +24,7 @@
   margin-top: 10px;
   color: var(--grey);
 }
+
 .big-card__text>p:hover,
 .big-card__title>h1>a:hover {
   color: var(--white);

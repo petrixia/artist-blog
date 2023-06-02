@@ -17,7 +17,5 @@ export class BigCardComponent {
   id:string="0"
 
   constructor() { }
-  ngOnInit(): void {
-
-  }
+  ngOnInit(): void {}
 }
