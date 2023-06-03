@@ -22,7 +22,7 @@ export const dataFake = [
     "id": "4",
     "title": "VALE DO JEQUITINHONHA AND CERAMICS TRADITION",
     "description": "The ceramics of Vale do Jequitinhonha are a unique expression of Brazilian craftmanship. Located in the state of Minas Gerais, the region has a long tradition of pottery-making, dating back to the indigenous cultures that inhabited the area. Today, the ceramics of Vale do Jequitinhonha are known for their intricate designs and vibrant colors, which are inspired by the local flora and fauna. The artisans who create these pieces are often women from rural communities, who have been able to sustain their livelihoods through their craft. The ceramics of Vale do Jequitinhonha are a testament to Brazil's rich cultural heritage and the creativity of its people.",
-    "photoCover": "https://media.architecturaldigest.com/photos/612e7189e20f486fe9e9213b/16:9/w_2560%2Cc_limit/fa9a8049-940f-4441-a6af-258c23ca.jpeg"
+    "photoCover": "https://classic.exame.com/wp-content/uploads/2021/10/JEQUITINHONHA-DIVULGACAO.jpg?quality=70&strip=info&w=1024"
   },
   {
     "id": "5",

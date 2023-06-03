@@ -22,10 +22,15 @@
 .big-card__text>p,
 .big-card__title>h1>a {
   margin-top: 10px;
-  color: var(--grey);
+  color: var(--white);
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .big-card__text>p:hover,
 .big-card__title>h1>a:hover {
-  color: var(--white);
+  opacity: 0.4;
 }
