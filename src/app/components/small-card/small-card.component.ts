@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+
 
 @Component({
   selector: 'app-small-card',
@@ -8,16 +10,15 @@ import { Component, Input } from '@angular/core';
 export class SmallCardComponent {
 
   @Input()
-  photoCover:string = ""
+  photoCover: string = ""
 
   @Input()
-  cardTitle:string = ""
+  cardTitle: string = ""
 
   @Input()
-  Id:string="0"
+  Id: string = "0"
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 }
