@@ -1,1 +1,55 @@
-<p>contact works!</p>
+<div class="container__contact">
+    <form [formGroup]="tattooForm" (ngSubmit)="onSubmit()" [noValidate] autocomplete="off">
+        <label>
+            Name:
+            <input type="text" formControlName="name">
+        </label>
+
+        <label>
+            Country:
+            <input type="text" formControlName="country">
+        </label>
+
+        <label>
+            City:
+            <input type="text" formControlName="city">
+        </label>
+
+        <label>
+            Birthday:
+            <input type="date" formControlName="birthday">
+        </label>
+
+        <label>
+            Email:
+            <input type="email" formControlName="email">
+        </label>
+
+        <label>
+            Instagram Account:
+            <input type="text" formControlName="instagram">
+        </label>
+
+        <label>
+            Describe the Tattoo:
+            <textarea formControlName="tattooDescription"></textarea>
+        </label>
+
+        <label>
+            Body Part:
+            <input type="text" formControlName="bodyPart">
+        </label>
+
+        <label>
+            Size in cm:
+            <input type="text" formControlName="size">
+        </label>
+
+        <label>
+            How did you meet us?
+            <input type="text" formControlName="howDidYouMeet">
+        </label>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
