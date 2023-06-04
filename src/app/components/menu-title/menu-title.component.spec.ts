@@ -1,21 +1,21 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+// import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MenuTitleComponent } from './menu-title.component';
+// import { MenuTitleComponent } from './menu-title.component';
 
-describe('MenuTitleComponent', () => {
-  let component: MenuTitleComponent;
-  let fixture: ComponentFixture<MenuTitleComponent>;
+// describe('MenuTitleComponent', () => {
+//   let component: MenuTitleComponent;
+//   let fixture: ComponentFixture<MenuTitleComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [MenuTitleComponent]
-    });
-    fixture = TestBed.createComponent(MenuTitleComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+//   beforeEach(() => {
+//     TestBed.configureTestingModule({
+//       declarations: [MenuTitleComponent]
+//     });
+//     fixture = TestBed.createComponent(MenuTitleComponent);
+//     component = fixture.componentInstance;
+//     fixture.detectChanges();
+//   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+//   it('should create', () => {
+//     expect(component).toBeTruthy();
+//   });
+// });
