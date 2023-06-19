@@ -14,13 +14,13 @@
   width: 100%;
 }
 
-.big-card__title>h1 {
+.big-card__title>h2 {
   margin-top: 15px;
   font-size: 20px;
 }
 
 .big-card__text>p,
-.big-card__title>h1>a {
+.big-card__title>h2>a {
   margin-top: 10px;
   color: var(--white);
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -31,6 +31,6 @@
 }
 
 .big-card__text>p:hover,
-.big-card__title>h1>a:hover {
+.big-card__title>h2>a:hover {
   opacity: 0.4;
 }
