@@ -1,20 +1,11 @@
 <app-menu-title></app-menu-title>
-<div class="container__articles">
-  <div class="articles__main">
-    <app-big-card     
-    *ngFor="let article of articlesContent"
-    [routerLink]=[article.id]
-    photoCover={{article.photo}}
-    cardTitle={{article.title}}
-    cardDescription={{article.description}}
-    ></app-big-card>
-  </div>
-  <div class="articles__list">
-    <app-small-card
-      *ngFor="let article of articlesContent"
-      [routerLink]=[article.id]
-      photoCover={{article.photo}}
-      cardTitle={{article.title}}
-    ></app-small-card>
-  </div>
-</div>
+<main class="container__articles">
+  <section class="articles__main">
+    <app-big-card *ngFor="let article of articlesContent" [routerLink]=[article.id] photoCover={{article.photo}}
+      cardTitle={{article.title}} cardDescription={{article.description}}></app-big-card>
+  </section>
+  <section class="articles__list">
+    <app-small-card *ngFor="let article of articlesContent" [routerLink]=[article.id] photoCover={{article.photo}}
+      cardTitle={{article.title}}></app-small-card>
+  </section>
+</main>

@@ -1,4 +1,4 @@
-*{
+* {
   text-decoration: none;
 }
 
@@ -29,7 +29,7 @@
   margin-top: 10px;
 }
 
-.small-card__title>h1>a {
+.small-card__title>h3>a {
   margin-top: 10px;
   color: var(--white);
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -38,6 +38,7 @@
   -o-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
 }
+
 .small-card__title>h1>a:hover {
   opacity: 0.4;
 }

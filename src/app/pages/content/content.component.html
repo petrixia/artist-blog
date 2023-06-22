@@ -1,16 +1,16 @@
-<div class="container__content">
-  <div class="content__cover">
-    <img src="{{ photoCover }}" alt="" srcset="">
-  </div>
+<section class="container__content" lang="en">
+  <figure class="content__cover">
+    <img src="{{ photoCover }}" alt="" srcset="" role="none">
+  </figure>
   <div class="content__title">
-    <h1>{{ contentTitle }}</h1>
+    <h2>{{ contentTitle }}</h2>
     <hr />
   </div>
-  <div class="content__description">
+  <main class="content__description">
     <a [routerLink]="['']" class="description__back">
       << BACK </a>
         <p>
           {{ contentDescription }}
         </p>
-  </div>
-</div>
+  </main>
+</section>
